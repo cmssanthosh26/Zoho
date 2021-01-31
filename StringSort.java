@@ -20,11 +20,7 @@ public class StringSort {
             i++;
         }
         i=0;
-        /*if("111".compareTo("110")>0)
-            System.out.println("true");
-        else
-            System.out.println("false");
-        */    
+    
         while(i<str.length-1){
             int k=i+1;
             while(k<str.length && str[i].length()==str[k].length()){
@@ -37,7 +33,7 @@ public class StringSort {
             }
             i++;
         }
-        //System.out.println("Two");
+        
         for(int k=0;k<n;k++)
         System.out.print(str[k]+" ");
     }
